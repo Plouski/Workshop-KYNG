@@ -36,7 +36,7 @@
     />
     <p class="text-lg leading-relaxed">{article.content}</p>
     <div class="mt-8 text-center">
-      <a href="/articles" class="text-blue-600 hover:underline dark:text-blue-400">
+      <a href="/home" class="text-blue-600 hover:underline dark:text-blue-400">
         ← Retour à la liste des articles
       </a>
     </div>

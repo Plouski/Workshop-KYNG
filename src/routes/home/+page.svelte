@@ -1,3 +1,4 @@
+
 <script>
   import { onMount } from 'svelte';
 
@@ -80,9 +81,10 @@
             <h2 class="text-xl font-semibold text-gray-800 mb-2">{collection.title}</h2>
             <p class="text-gray-600 flex-1">{collection.description}</p>
             <div class="mt-4 pt-3 border-t border-gray-100">
-              <button class="px-4 py-2 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors duration-200">
+             <a href={`/articles/${collection.id}`} class="px-4 py-2 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors duration-200">
                 Voir la collection
-              </button>
+             </a>
+
             </div>
           </div>
         </div>
