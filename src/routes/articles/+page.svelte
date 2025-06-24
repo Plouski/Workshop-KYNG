@@ -1,13 +1,12 @@
 <script>
 	import { onMount } from 'svelte';
 
-	/** @type {any[]} */
 	let collections = [];
 
 	let loading = true;
 
 	const API_URL = 'http://localhost:1337/api/articles?populate=cover';
-	const API_TOKEN = ''; // Laisse vide si les permissions publiques sont activées
+	const API_TOKEN = '';
 
 	onMount(async () => {
 		try {
